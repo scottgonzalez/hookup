@@ -1,0 +1,27 @@
+{
+  "name": "hookup",
+  "version": "0.0.0",
+  "description": "Easily configure GitHub web hooks.",
+  "keywords": [
+    "github",
+    "webhook"
+  ],
+  "homepage": "https://github.com/scottgonzalez/hookup",
+  "bugs": "https://github.com/scottgonzalez/hookup/issues",
+  "author": {
+    "name": "Scott González",
+    "email": "scott.gonzalez@gmail.com",
+    "url": "http://scottgonzalez.com"
+  },
+  "main": "./lib/hookup.js",
+  "bin": {
+    "hookup": "./bin/hookup-cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/scottgonzalez/hookup.git"
+  },
+  "dependencies": {
+    "optimist": "~0.3.5"
+  }
+}
