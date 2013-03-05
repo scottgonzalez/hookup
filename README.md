@@ -46,6 +46,28 @@ client.addWebHook({
 The node module contains lower-level methods for interacting with hooks and the
 GitHub API in general.
 
+## Events
+
+The following events are available:
+
+* `push` - Any git push to a Repository.
+* `issues` - Any time an Issue is opened or closed.
+* `issue_comment` - Any time an Issue is commented on.
+* `commit_comment` - Any time a Commit is commented on.
+* `pull_request` - Any time a Pull Request is opened, closed, or synchronized (updated due to a new push in the branch that the pull request is tracking).
+* `pull_request_review_comment` - Any time a Commit is commented on while inside a Pull Request review (the Files Changed tab).
+* `gollum` - Any time a Wiki page is updated.
+* `watch` - Any time a User watches the Repository.
+* `download` - Any time a Download is added to the Repository.
+* `fork` - Any time a Repository is forked.
+* `fork_apply` - Any time a patch is applied to the Repository from the Fork Queue.
+* `member` - Any time a User is added as a collaborator to a non-Organization Repository.
+* `public` - Any time a Repository changes from private to public.
+* `team_add` - Any time a team is added or modified on a Repository.
+* `status` - Any time a Repository has a status update from the API
+
+Check [the GitHub API docs](http://developer.github.com/v3/repos/hooks/) for up-to-date information.
+
 ## License
 
 Copyright 2013 Scott González. Released under the terms of the MIT license.
