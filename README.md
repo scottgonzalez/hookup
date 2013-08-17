@@ -2,6 +2,8 @@
 
 Easily configure GitHub web hooks.
 
+Support this project by [donating on Gittip](https://www.gittip.com/scottgonzalez/).
+
 ## About
 
 GitHub doesn't provide a UI for configuring which events a web hook listens to.
@@ -71,3 +73,7 @@ Check [the GitHub API docs](http://developer.github.com/v3/repos/hooks/) for up-
 ## License
 
 Copyright 2013 Scott González. Released under the terms of the MIT license.
+
+---
+
+Support this project by [donating on Gittip](https://www.gittip.com/scottgonzalez/).
